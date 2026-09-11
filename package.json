@@ -1,0 +1,40 @@
+{
+  "name": "precommit-sentinel",
+  "version": "1.0.0",
+  "description": "Zero-dependency pre-commit scanner: catches vulnerabilities and secrets, and reports code quality, modularity, and scalability of your project.",
+  "keywords": [
+    "pre-commit",
+    "git-hook",
+    "security",
+    "vulnerability-scanner",
+    "secret-scanner",
+    "code-quality",
+    "static-analysis",
+    "npm",
+    "pnpm"
+  ],
+  "license": "MIT",
+  "author": "",
+  "main": "src/index.js",
+  "bin": {
+    "precommit-sentinel": "bin/precommit-sentinel.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "node --test",
+    "postinstall": "node scripts/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedz182/npm.git"
+  }
+}
