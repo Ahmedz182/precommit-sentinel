@@ -14,7 +14,7 @@
     "pnpm"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Ahmed Fayyaz",
   "main": "src/index.js",
   "bin": {
     "precommit-sentinel": "bin/precommit-sentinel.js"
@@ -35,6 +35,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ahmedz182/npm.git"
+    "url": "git+https://github.com/Ahmedz182/precommit-sentinel.git"
+  },
+  "homepage": "https://github.com/Ahmedz182/precommit-sentinel#readme",
+  "bugs": {
+    "url": "https://github.com/Ahmedz182/precommit-sentinel/issues"
   }
 }
